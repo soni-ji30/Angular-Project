@@ -1,0 +1,16 @@
+{
+  "orders": [
+    {
+      "product": "Mobile",
+      "customer": "mahima",
+      "time": "2021-09-27T00:36:45.180Z",
+      "id": 1
+    },
+    {
+      "product": "Washing Machine",
+      "customer": "roopal",
+      "time": "2021-09-27T00:45:17.974Z",
+      "id": 2
+    }
+  ]
+}

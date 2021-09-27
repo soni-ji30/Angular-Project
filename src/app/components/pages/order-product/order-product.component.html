@@ -1,0 +1,38 @@
+<!-- <p>order-now works!</p> -->
+
+<div class="row">
+
+    <div class="col-6 offset-3 pt-3">
+        <div class="card">
+            <div class="card-header">
+                <h4>Order Now</h4>
+            </div>
+            <div class="card-body">
+                <form (ngSubmit)="submit()" [formGroup]="orderdata">
+                    <div class="form-group">
+                        <select name="product" id="" class="form-control" formControlName="product">
+                    <option value="">Select Product</option>
+                    <option value="Refrigerator">Refrigerator</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Chimney">Chimney</option>
+                    <option value="Laptop">Laptop</option>
+                    <option value="Washing Machine">Washing Machine</option>
+                    <option value="Television">Television</option>
+                    <option value="Earphones">Earphones</option>
+
+                </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Customer Name</label>
+                        <input type="text" class="form-control" formControlName="customer">
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-success">Place Order</button>
+                        <button class="btn btn-danger">Cancel Order</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

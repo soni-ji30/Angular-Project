@@ -1,0 +1,10 @@
+.card {
+    background-color: azure;
+    color: blue;
+}
+
+button {
+    font-size: large;
+    margin: 6px;
+    padding: 0;
+}

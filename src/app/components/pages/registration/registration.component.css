@@ -1,0 +1,26 @@
+.card {
+    background-color: azure;
+    color: black;
+    font-size: large;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card-body label {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+.registerbtn {
+    margin-left: 30%;
+    width: 35%;
+    margin-top: 4px;
+    background-color: rgb(12, 170, 109);
+}

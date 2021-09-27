@@ -1,0 +1,13 @@
+{
+    "orders": [
+        { "product_id": 1, "product_name": "Earphones", "customer_name": "Megha" },
+        { "product_id": 2, "product_name": "Mobile phone", "customer_name": "Raghav" },
+        { "product_id": 3, "product_name": "Laptop", "customer_name": "Dev" },
+        { "product_id": 4, "product_name": "Refrigerator", "customer_name": "Madhu" },
+        { "product_id": 5, "product_name": "LED Tv", "customer_name": "Mahesh" },
+        { "product_id": 6, "product_name": "Washing Machine", "customer_name": "Mishti" },
+        { "product_id": 7, "product_name": "Gas Stove", "customer_name": "Lakshmi" },
+        { "product_id": 8, "product_name": "Chimney", "customer_name": "Lakshay" }
+
+    ]
+}
