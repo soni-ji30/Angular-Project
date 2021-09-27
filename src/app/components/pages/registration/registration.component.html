@@ -8,19 +8,19 @@
                 <form (ngSubmit)="submit()" [formGroup]="formdata">
                     <div class="form-group pt-2">
                         <label for="">First Name</label>
-                        <input type="text" class="form-control" name="firstname" formControlName="firstname">
+                        <input type="text" class="form-control" name="firstname" placeholder="Enter First Name" formControlName="firstname">
                         <div class="text-danger" *ngIf="formdata.controls.firstname.errors?.required && formdata.controls.firstname.touched">First Name Required</div>
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="">Last Name</label>
-                        <input type="text" class="form-control" name="lastname" formControlName="lastname">
+                        <input type="text" class="form-control" name="lastname" placeholder="Enter Last Name" formControlName="lastname">
                         <div class="text-danger" *ngIf="formdata.controls.lastname.errors?.required && formdata.controls.lastname.touched">Last Name Required</div>
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="">Gender</label>
-                        <input type="text" class="form-control" name="gender" formControlName="gender">
+                        <input type="text" class="form-control" name="gender" placeholder="Enter Your Gender" formControlName="gender">
                         <div class="text-danger" *ngIf="formdata.controls.gender.errors?.required && formdata.controls.gender.touched">Gender Required</div>
                     </div>
 
@@ -32,27 +32,27 @@
 
                     <div class="form-group pt-2">
                         <label for="">Email</label>
-                        <input type="email" class="form-control" name="email" formControlName="email">
+                        <input type="email" class="form-control" name="email" placeholder="Enter Your Email" formControlName="email">
                         <div class="text-danger" *ngIf="formdata.controls.email.errors?.required && formdata.controls.email.touched">Email Required</div>
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="">Mobile No</label>
-                        <input type="number" class="form-control" name="mobile" formControlName="mobile">
+                        <input type="number" class="form-control" name="mobile" placeholder="Enter Your Mobile No." formControlName="mobile">
                         <div class="text-danger" *ngIf="formdata.controls.mobile.errors?.required && formdata.controls.mobile.touched">Mobile No. Required</div>
 
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="">Password</label>
-                        <input type="password" class="form-control" name="password" formControlName="password">
+                        <input type="password" class="form-control" name="password" placeholder="Enter Password" formControlName="password">
                         <div class="text-danger" *ngIf="formdata.controls.password.errors?.required && formdata.controls.password.touched">Password Required</div>
 
                     </div>
 
                     <div class="form-group pt-2">
                         <label for="">Confirm Password</label>
-                        <input type="password" class="form-control" name="confirmpassword" formControlName="confirmpassword">
+                        <input type="password" class="form-control" name="confirmpassword" placeholder="Enter Confirm Password" formControlName="confirmpassword">
                         <div class="text-danger" *ngIf="formdata.controls.confirmpassword.errors?.required && formdata.controls.confirmpassword.touched">Confirm Password Required</div>
 
                     </div>
