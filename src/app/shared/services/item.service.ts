@@ -19,3 +19,5 @@ CreateProducts(order:any){
   return this._httpclient.post(`${BASEURL}${EndPoint.order}`,order)
  }
 }
+/*UpdateProducts(id:number){
+   return this._httpclient.put(`${BASEURL}${EndPoint.order}/${id}`)}*/
