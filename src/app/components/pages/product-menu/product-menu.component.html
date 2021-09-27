@@ -26,11 +26,16 @@
                                 <td><label for="">Order time :</label></td>
                                 <td>{{ord.time|date:'short'}}</td>
                             </tr>
+                          <!--<tr>
+                                <td><label for="">Customer id :</label></td>
+                                <td>{{ord.id}}</td>
+                            </tr>-->
                         </table>
                     </div>
 
                     <div class="card-footer">
                         <button class="btn btn-danger" (click)="RemoveProduct(ord.id)">Delete Detail</button>
+                      <button class="btn btn-success" (click)="UpdateProduct(ord.id)">Update Detail</button>
                     </div>
 
 
