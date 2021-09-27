@@ -23,3 +23,8 @@ export class ProductMenuComponent implements OnInit {
     })
   }
 }
+/*UpdateProduct(id:number){
+    this._itemService.UpdateProducts(id).subscribe((result:any)=>{
+      this.LoadProducts()
+    })
+  }*/
